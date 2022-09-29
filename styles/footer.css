@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__wrap{
+    width: 50%;
+    margin: auto;
+    padding-bottom:2% ;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tel{
+    display: flex;
+    justify-items: center;
+    align-items:flex-end;
+    flex-direction: column  ;
+}
+

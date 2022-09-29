@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(hosblock.css);
+@import url(about_us.css);
+@import url(offer.css);
+@import url(text.css);
+@import url(button.css);
+@import url(option.css);
+@import url(installation.css);
+@import url(review.css);
+@import url(for-cottage.css);
+@import url(big-img.css);
+@import url(form.css);
+@import url(map.css);
+@import url(footer.css);
+@import url(scroll.css);
+@import url(application.css);
+
+html{
+    
+scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    scroll-behavior: smooth;
+}
+
+.line{
+    margin: 32px 0 35px 0; 
+    width: 200px; 
+    height: 1px;
+
+    border-bottom: 3px solid #ed7a00;
+}
+
+

@@ -1,0 +1,39 @@
+.button{
+    text-decoration: none;
+    background-color:rgb(237, 122, 0);
+    
+ 
+    margin-top:30px;
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button_size_small{
+    width: 250px;
+    height: 40px;
+    color: white;
+}
+
+.button_size_small-low{
+    width: 200px;
+    height: 40px;
+    color: white;
+
+    margin-top: 0;
+}
+
+.button__width-100{
+    width: 100%;
+}

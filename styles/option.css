@@ -1,0 +1,32 @@
+
+.options{
+    background-image: url(../img/bgOptions.png);
+    height: 500px;
+
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.options__item{
+    height: 300px;
+    width: 363px;
+    /* background: white; */
+    box-shadow: 0 0 1px rgba(0,0,0,0.8);
+    margin: 0 15px;
+    padding: 20px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.options__icon  {
+    height: 128px; 
+    width: 128px;
+    margin-bottom: 15px;
+}
+

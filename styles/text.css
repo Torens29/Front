@@ -1,0 +1,56 @@
+.text{
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+
+/* size */
+
+.text_headline_1 { /*.text_level_height-low */
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family: russo one;
+}
+
+.text_headline_2 {  /*.text_level_height*/
+    font-size: 3.1rem;
+}
+
+.text_size_xl {  /*.text_level_middle */
+    font-size: 1.5rem;
+}
+
+.text_size_l {  /* .text_level_middle-low */
+    font-size: 1.3rem;
+}
+
+.text_size_m {  /*.text_level_low*/
+    font-size: 1.25rem;
+}
+
+.text_size_s{
+    font-size: 1.06rem;
+
+}
+
+/* color */
+
+.text_color_white{
+    color: white;
+    text-decoration: none;
+}
+
+.text_color_black{
+    color: black;
+}
+
+.text_color_orange
+{
+    color: orange;
+}
+
+.text_underlined{
+    text-decoration: underline;
+    margin-bottom: 0;
+    
+    padding: 5% 0;
+}

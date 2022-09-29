@@ -1,0 +1,9 @@
+.big-img{
+    padding: 4% 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/bgOptions.png);
+}
