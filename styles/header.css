@@ -9,23 +9,26 @@
 }
 
 .header__wrap{
-    width: 50%;
+    width: 1170px;
+    padding: 0 3%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header__logo{
     height: 45px;
 }
 
-
 .header__nav > ul> li {
     display: inline-flex;
 }
 
 .header__item-nav {
+    
+
     font-size: 16px;
     display: block;
     text-transform: uppercase;
@@ -41,4 +44,30 @@
 .ul_nuv{
     font-family: Montserrat, sans-serif;
     color: #333333;
+    
+    display: inline-flex;
+}
+
+.header__menu_button{
+    background-image: url(../img/menu.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.header__menu_button{
+    display: none;
+}
+
+.header__menu_button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 960px){
+    .header_hidden_true{
+        display: none;
+    }
+
+    .header__menu_button{
+        display:flex;
+    }
 }

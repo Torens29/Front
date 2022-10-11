@@ -1,10 +1,18 @@
 .about-us{
     height: 640px;
 
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.about-us__wrap{
+    width: 1170px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us__img{
@@ -23,4 +31,8 @@
 }
 
 
-
+@media (max-width: 1220px){
+    .about-us__wrap{
+        width: 940px;
+    }
+}

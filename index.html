@@ -15,17 +15,39 @@
 </head>
 
 <body>
+    
+    <div class="hidden_menu" id="hidden_menu">
+        <img class="hidden_menu__close" src="/img/close.svg" alt="" onclick="closeMenu()">
+        <div class="hidden_menu__wrap">
+            <div >
+                <a href="#"><img class="header__logo" src="img/tobiz_logo_def_black.png" alt="logo"></a>
+            </div>
+            <div class="hidden_menu__nav">
+                <ul class="hidden_menu__ul_nav">
+                    <li><a class="header__item-nav " href="#option">ПОЧЕМУ МЫ</a></li>
+                    <li><a class="header__item-nav " href="#offer"> КАТАЛОГ</a></li>
+                    <li><a class="header__item-nav " href="#review"> ОТЗОВЫ</a></li>
+                    <li><a class="header__item-nav" href="#map"> КОНТАКТЫ</a></li>
+                </ul>
+                <a class="telephone header__item-nav" href="tel:+7 800 333 22 33">+7 800 333 22 33</a>
+            </div>
+        </div>
+    </div>
+    
     <header class="header">
         <div class="header__wrap">
+
+            <div class="header__menu_button" onclick="openMenu()"></div>
+
             <div >
                 <a href="#"><img class="header__logo" src="img/tobiz_logo_def_black.png" alt="logo"></a>
             </div>
             <div class="header__nav">
                 <ul class="ul_nav">
-                    <li><a class="header__item-nav" href="#option">ПОЧЕМУ МЫ</a> </li>
-                    <li><a class="header__item-nav" href="#offer"> КАТАЛОГ</a></li>
-                    <li><a class="header__item-nav" href="#review"> ОТЗОВЫ</a></li>
-                    <li><a class="header__item-nav" href="#map"> КОНТАКТЫ</a></li>
+                    <li><a class="header__item-nav header_hidden_true" href="#option">ПОЧЕМУ МЫ</a> </li>
+                    <li><a class="header__item-nav header_hidden_true" href="#offer"> КАТАЛОГ</a></li>
+                    <li><a class="header__item-nav header_hidden_true" href="#review"> ОТЗОВЫ</a></li>
+                    <li><a class="header__item-nav header_hidden_true" href="#map"> КОНТАКТЫ</a></li>
                     <li><a class="telephone header__item-nav" href="tel:+7 800 333 22 33">+7 800 333 22 33</a></li>
                 </ul>
             </div>
@@ -64,75 +86,82 @@
     </div>
 
     <div class="about-us">
-        <img class="about-us__img" src="img/about.jpg" alt="">
-        <div class="about-us__text">
-            <div class="text text_headline_1 text_color_black">О нашей компании</div>
-            <div class="line"></div>
-            <div class="text text_size_s text_color_black">Хозблок представляет из себя нежилое строение, традиционно - помещение для хранения разного имущества. Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды. Если вам в доме не хватает свободного места для инвентаря и хочется все инструменты сложить в отдельном помещении, рекомендуется построить хозблок. Еще одно направление - хозблоки-туалеты, которые выполняются с учетом санитарно-гигиеническх норм и своим дизайном не портят общий вид усадьбы или дачного участка.</div>
-            <div class="button button_size_small" onclick="openForm()">Связаться с нами</div>
+        <div class="about-us__wrap">
+            <img class="about-us__img" src="img/about.jpg" alt="">
+            <div class="about-us__text">
+                <div class="text text_headline_1 text_color_black">О нашей компании</div>
+                <div class="line"></div>
+                <div class="text text_size_s text_color_black">Хозблок представляет из себя нежилое строение, традиционно - помещение для хранения разного имущества. Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды. Если вам в доме не хватает свободного места для инвентаря и хочется все инструменты сложить в отдельном помещении, рекомендуется построить хозблок. Еще одно направление - хозблоки-туалеты, которые выполняются с учетом санитарно-гигиеническх норм и своим дизайном не портят общий вид усадьбы или дачного участка.</div>
+                <div class="button button_size_small" onclick="openForm()">Связаться с нами</div>
+            </div>
         </div>
+        
     </div>
 
     <div class="offer" id="offer">
         <div class="text text_headline_2 text_color_black">Что мы предлагаем</div> 
         <div class="line"></div>
         <div class="text text_size_m text_color_black">В каталоге нашей компании любой желающий может найти хозблоки для дачи</div>
-        <div class="offer__collect"> 
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer1.png" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">25 490 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+        
+        <div class="offer__collect-wrap">
+            <div class="offer__collect"> 
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer1.png" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">25 490 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
-            </div>
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer2.jpg" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 379953</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">30 990 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer2.jpg" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 379953</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">30 990 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
-            </div>
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer3.jpg" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">35 490 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer3.jpg" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">35 490 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
-            </div>
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer4.jpg" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">40 990 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer4.jpg" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">40 990 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
-            </div>
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer5.jpg" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">45 490 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer5.jpg" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">45 490 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
-            </div>
-            <div class="offer__coolect_item">
-                <img class="offer__img" src="img/offer6.jpg" alt="">
-                <div class="offer__about-item">
-                    <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
-                    <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
-                    <p class="price">50 990 руб.</p>
-                    <div class="button button_size_small-low">Купить</div>
+                <div class="offer__coolect_item">
+                    <img class="offer__img" src="img/offer6.jpg" alt="">
+                    <div class="offer__about-item">
+                        <p class="text text_size_m text_color_black text_underlined">Хозблок для дачи 168900</p>
+                        <p class="text text_size_s">Дачные хозяйственные блоки обычно имеют небольшой размер, бывают универсальными или спроектированными под конкретные нужды.</p>
+                        <p class="price">50 990 руб.</p>
+                        <div class="button button_size_small-low">Купить</div>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </div>
 
     <div class="installation">

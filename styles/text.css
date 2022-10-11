@@ -5,25 +5,25 @@
 
 /* size */
 
-.text_headline_1 { /*.text_level_height-low */
+.text_headline_1 { 
     font-size: 4.5rem;
     font-weight: 900;
     font-family: russo one;
 }
 
-.text_headline_2 {  /*.text_level_height*/
+.text_headline_2 {  
     font-size: 3.1rem;
 }
 
-.text_size_xl {  /*.text_level_middle */
+.text_size_xl {  
     font-size: 1.5rem;
 }
 
-.text_size_l {  /* .text_level_middle-low */
+.text_size_l {  
     font-size: 1.3rem;
 }
 
-.text_size_m {  /*.text_level_low*/
+.text_size_m {  
     font-size: 1.25rem;
 }
 
@@ -53,4 +53,10 @@
     margin-bottom: 0;
     
     padding: 5% 0;
+}
+
+@media (max-width: 1220px){
+    .text_headline_1 {  
+        font-size: 1.5rem;
+    }
 }

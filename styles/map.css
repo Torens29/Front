@@ -1,7 +1,5 @@
 .map{
     
-    /* text-align: center; */
-
     background-image: url(../img/bgOptions.png);
 }
 
@@ -17,7 +15,7 @@
 }
 
 .map__wrap{
-    width: 45%;
+    width: 940px;
     background-color: white;
     display: flex;
 }

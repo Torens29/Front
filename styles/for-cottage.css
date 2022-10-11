@@ -1,12 +1,14 @@
 .for-cottage{
+    height: 610px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3% 0;
 }
 
 .for-cottage__wrap{
-    width: 40%;
+    width:  940px;
+    height: 430px;
 
     display: flex;
     flex-direction: column;

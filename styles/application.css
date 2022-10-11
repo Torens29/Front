@@ -3,7 +3,6 @@
     height: 100%;
 
     position: fixed;
-    display: none;
     z-index: 15;
 
     display: flex;
@@ -12,6 +11,9 @@
     align-content: center;
     
     background-color: rgba(0,0,0,0.5);
+
+    
+    display: none;
 } 
 
 .application__wrap{

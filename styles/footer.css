@@ -7,7 +7,9 @@
 }
 
 .footer__wrap{
-    width: 50%;
+    
+    width: 1170px;
+
     margin: auto;
     padding-bottom:2% ;
     
@@ -21,6 +23,6 @@
     display: flex;
     justify-items: center;
     align-items:flex-end;
-    flex-direction: column  ;
+    flex-direction: column;
 }
 

@@ -14,6 +14,8 @@
 @import url(footer.css);
 @import url(scroll.css);
 @import url(application.css);
+@import url(media.css);
+@import url(hidden_menu.css);
 
 html{
     
@@ -36,4 +38,9 @@ body{
     border-bottom: 3px solid #ed7a00;
 }
 
+@media (max-width: 1220px){
+    body::-webkit-scrollbar {
+        width: 2px;               /* ширина scrollbar */
+    }
+}
 
