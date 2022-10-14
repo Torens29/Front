@@ -9,10 +9,14 @@
     font-size: 4.5rem;
     font-weight: 900;
     font-family: russo one;
+
+    text-align: center;
 }
 
 .text_headline_2 {  
     font-size: 3.1rem;
+
+    text-align: center;
 }
 
 .text_size_xl {  
