@@ -26,3 +26,48 @@
     flex-direction: column;
 }
 
+@media (max-width: 1000px){
+    .info>div, .tel>div{
+        font-size: 0.8rem;
+    }
+   
+}
+
+@media(max-width: 800px){
+    .logo img{
+        width: 140px;
+        height: auto;
+    }
+}
+
+@media(max-width: 720px){
+
+    .info{
+        display: none;
+    }
+
+    .footer__wrap{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 480px){
+    .footer__wrap{
+        flex-direction: column;
+    }
+
+    .tel{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .tel div{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .logo img{
+        width: 160px;
+        height: auto;
+    }
+}

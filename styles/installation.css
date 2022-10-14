@@ -9,8 +9,31 @@
     align-items: center;
 
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/insllation.jpg') no-repeat;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
     background-size: 100%;    
     background-position: 0% 50%;
 }
+
+ /* я хз */
+
+@media (max-width: 960px){ 
+    .installation{
+        height: auto;
+
+        padding:20% 2%;
+        background-size: 150%; 
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 500px){
+    .installation div:nth-child(3){
+        padding-top: 10px;
+        font-size: 17px;
+    }
+
+    .installation div:last-child{
+        width: 70%;
+    }
+} 

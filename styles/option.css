@@ -10,9 +10,9 @@
 }
 
 .options__item{
-    height: 300px;
-    width: 363px;
-    /* background: white; */
+    height: auto;
+    width: 340px;
+
     box-shadow: 0 0 1px rgba(0,0,0,0.8);
     margin: 0 15px;
     padding: 20px;
@@ -20,6 +20,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    align-content: flex-start;
     flex-direction: column;
     text-align: center;
 }
@@ -30,3 +31,16 @@
     margin-bottom: 15px;
 }
 
+@media (max-width: 650px){
+    .options{
+        height: auto;
+        flex-wrap: wrap;
+
+        padding: 5%; 
+    }
+
+    .options__item{
+        margin: 5% 0;
+    }
+
+}

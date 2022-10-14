@@ -15,3 +15,35 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 960px){
+    .for-cottage__wrap{
+        width:  640px;
+    }
+}
+
+/* @media (max-width: 680px){
+    .for-cottage__wrap{
+        width:  460px;
+    }
+} */
+
+@media (max-width: 680px){
+    .for-cottage__wrap{
+        width:  auto;
+        padding: 2%;
+    }
+
+    .for-cottage{
+        height: 610px;
+    }
+
+    .for-cottage__wrap{
+        height: auto;
+    }
+
+    .for-cottage{
+        height: auto;
+    }
+}

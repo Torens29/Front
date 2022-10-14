@@ -26,4 +26,25 @@
     align-items: center;
 }
 
-@m
+@media (max-width: 960px){
+    .hosblock__text-of-view{
+        width: 640px;
+    }
+}
+
+@media (max-width: 650px){
+    .hosblock__text-of-view{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 650px){
+    .hosblock__text-of-view > div:last-child{
+        width: 90%;
+    }
+
+    .hosblock__text-of-view> div:nth-last-child(2){
+        font-size: 17px;
+    }
+}
