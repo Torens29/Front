@@ -24,16 +24,34 @@
 
 .header__nav > ul> li {
     display: inline-flex;
+
+    /* color: #333333; */
 }
 
 .header__item-nav {
-    
+    color: #333333;    
 
     font-size: 16px;
     display: block;
     text-transform: uppercase;
     padding: 0.3em 1em;
     text-decoration: none;
+}
+
+.header__item-nav::before{
+    content: "○"; 
+    margin-right: 5px;
+}
+
+.telephone::before{
+    content: "";
+    background-image: url(../img/тел.png);
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 .div_nav > ul > li> a:hover {

@@ -8,6 +8,8 @@ function closeForm() {
 
 function openMenu() {
     document.getElementById("hidden_menu").style.display = "flex";
+    document.querySelector(".hidden_menu__wrap").classList.add("hidden_menu__open");
+    console.log(document.querySelector(".hidden_menu__wrap").classList)
 }
 
 function closeMenu() {

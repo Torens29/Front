@@ -27,8 +27,16 @@
 }
 
 @media (max-width: 960px){
+    
     .hosblock__text-of-view{
         width: 640px;
+    }
+}
+
+@media (max-width: 900px){
+    .hosblock{
+        background-size: auto 100% ;
+        background-position: 50% 50%;
     }
 }
 

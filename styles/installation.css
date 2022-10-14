@@ -15,15 +15,23 @@
     background-position: 0% 50%;
 }
 
- /* я хз */
+
+@media (max-width: 1300px){ 
+    .installation{
+        
+        background-size:  auto 100%; 
+        background-position: 50% 50%;
+    }
+}
 
 @media (max-width: 960px){ 
     .installation{
         height: auto;
 
-        padding:20% 2%;
-        background-size: 150%; 
-        background-position: 0% 50%;
+        background-size:  auto 100%; 
+        background-position: 50% 50%;
+
+        padding: 20% 2%;
     }
 }
 
